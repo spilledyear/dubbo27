@@ -1,0 +1,28 @@
+plugins {
+    id 'org.springframework.boot' version '2.1.4.RELEASE'
+    id 'java'
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.sxy.dubbo27'
+version = '1.0'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter'
+    
+    implementation 'org.apache.dubbo:dubbo-spring-boot-starter:2.7.0'
+    implementation 'org.apache.dubbo:dubbo:2.7.0'
+    implementation 'org.apache.dubbo:dubbo-metadata-report-redis:2.7.0'
+
+    implementation 'org.apache.zookeeper:zookeeper:3.4.12'
+    implementation 'org.apache.curator:curator-recipes:2.12.0'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
