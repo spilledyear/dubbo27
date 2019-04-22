@@ -9,7 +9,7 @@ import org.apache.dubbo.config.annotation.Service;
 @Service
 public class LeannImpl implements ILearn {
     @Override
-    public void learn(String name) {
-        System.out.println(name + "学习学习");
+    public String learn(String name) {
+        return "学习： " + name;
     }
 }
