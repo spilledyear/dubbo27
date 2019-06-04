@@ -1,4 +1,4 @@
-package com.sxy.dubbo27;
+package com.sxy.sdubbo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,10 +7,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class Dubbo27ApplicationTests {
+public class SDubboApplicationTests {
 
     @Test
     public void contextLoads() {
+        System.out.println("success");
     }
 
 }

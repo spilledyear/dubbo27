@@ -1,4 +1,4 @@
-package com.sxy.dubbo27.service;
+package com.sxy.sdubbo.service;
 
 /**
  * @author spilledyear

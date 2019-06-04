@@ -1,4 +1,4 @@
-package com.sxy.dubbo27;
+package com.sxy.sdubbo;
 
 import org.apache.dubbo.config.MetadataReportConfig;
 import org.apache.dubbo.config.RegistryConfig;
@@ -11,10 +11,10 @@ import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
 @EnableDubbo
-public class Dubbo27Application {
+public class SDubboApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Dubbo27Application.class, args);
+        SpringApplication.run(SDubboApplication.class, args);
     }
 
 
@@ -25,8 +25,8 @@ public class Dubbo27Application {
         public RegistryConfig registryConfig() {
             RegistryConfig registryConfig = new RegistryConfig();
 //            registryConfig.setAddress("multicast://224.5.6.7:1234");
-//            registryConfig.setAddress("nacos://10.9.44.133:8848");
-            registryConfig.setAddress("zookeeper://10.9.15.32:2181");
+            registryConfig.setAddress("nacos://10.9.44.133:8848");
+//            registryConfig.setAddress("zookeeper://10.9.15.32:2181");
 
             // 注册简化版的的url到注册中心
             registryConfig.setSimplified(true);
@@ -37,8 +37,8 @@ public class Dubbo27Application {
         @Bean
         public MetadataReportConfig metadataReportConfig() {
             MetadataReportConfig metadataReportConfig = new MetadataReportConfig();
-            metadataReportConfig.setAddress("zookeeper://10.9.15.32:2181");
-//            metadataReportConfig.setAddress("redis://localhost:6379");
+//            metadataReportConfig.setAddress("zookeeper://10.9.15.32:2181");
+            metadataReportConfig.setAddress("redis://localhost:6379");
             return metadataReportConfig;
         }
 
