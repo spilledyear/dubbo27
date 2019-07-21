@@ -4,3 +4,25 @@ server:
 spring:
   main:
     allow-bean-definition-overriding: true
+
+
+#dubbo:
+#  application:
+#    name: sdubbo
+#
+#  protocol:
+#    name: dubbo
+#    port: 20882
+#
+#  registry:
+#    address: zookeeper://10.9.44.133:2181
+#    simplified: true
+#
+#  metadata-report:
+#    address: zookeeper://10.9.44.133:2181
+#
+#  config-center:
+#    address: zookeeper://10.9.44.133:2181
+#
+#  scan:
+#    base-packages: com.sxy.sdubbo

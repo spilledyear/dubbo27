@@ -38,8 +38,8 @@ public class SDubboApplication {
         @Bean
         public MetadataReportConfig metadataReportConfig() {
             MetadataReportConfig metadataReportConfig = new MetadataReportConfig();
-//            metadataReportConfig.setAddress("nacos://10.9.44.133:8848");
             metadataReportConfig.setAddress("zookeeper://10.9.44.133:2181");
+//            metadataReportConfig.setAddress("nacos://10.9.44.133:8848");
 //            metadataReportConfig.setAddress("redis://localhost:6379");
             return metadataReportConfig;
         }
