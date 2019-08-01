@@ -30,7 +30,7 @@ public class SDubboApplication {
             registryConfig.setAddress("zookeeper://10.9.44.133:2181");
 
             // 注册简化版的的url到注册中心
-            registryConfig.setSimplified(true);
+//            registryConfig.setSimplified(true);
             return registryConfig;
         }
 
