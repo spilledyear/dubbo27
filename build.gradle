@@ -19,15 +19,15 @@ dependencies {
 
 //    implementation 'com.alibaba.spring:spring-context-support:1.0.2'
 //    implementation 'org.apache.dubbo:dubbo-spring-boot-starter:2.7.1'
-    implementation 'org.apache.dubbo:dubbo:2.7.2'
-    implementation 'org.apache.dubbo:dubbo-registry-nacos:2.7.2'
-    implementation 'org.apache.dubbo:dubbo-registry-zookeeper:2.7.2'
-    implementation 'org.apache.dubbo:dubbo-metadata-report-zookeeper:2.7.2'
+    implementation 'org.apache.dubbo:dubbo:2.7.3'
+    implementation 'org.apache.dubbo:dubbo-registry-nacos:2.7.3'
+    implementation 'org.apache.dubbo:dubbo-registry-zookeeper:2.7.3'
+    implementation 'org.apache.dubbo:dubbo-metadata-report-zookeeper:2.7.3'
 
-//    implementation 'org.apache.dubbo:dubbo-metadata-report-nacos:2.7.2'
+//    implementation 'org.apache.dubbo:dubbo-metadata-report-nacos:2.7.3'
 //    implementation 'com.alibaba.nacos:nacos-client:1.0.0'
 
-//    implementation 'org.apache.dubbo:dubbo-metadata-report-redis:2.7.2'
+//    implementation 'org.apache.dubbo:dubbo-metadata-report-redis:2.7.3'
 
     implementation 'org.apache.zookeeper:zookeeper:3.4.12'
     implementation 'org.apache.curator:curator-recipes:2.12.0'
