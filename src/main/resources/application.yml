@@ -5,6 +5,13 @@ spring:
   main:
     allow-bean-definition-overriding: true
 
+apache:
+  rocketmq:
+    namesrvAddr: 127.0.0.1:9876
+    consumer:
+      PushConsumer: PushConsumer
+    producer:
+      producerGroup: Producer
 
 #dubbo:
 #  application:
